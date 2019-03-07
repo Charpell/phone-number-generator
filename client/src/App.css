@@ -1,0 +1,64 @@
+:root {
+  --mainBlue: #2a2a7a;
+  --mainGrey: #f3f3f3;
+  --mainWhite: #ffffff;
+}
+
+.text-title {
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+body {
+  background: var(--mainGrey);
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+
+.fancy-border {
+  border-left: 8px solid var(--mainBlue) !important;
+  padding-top: 27px;
+  padding-bottom: 17px;
+  padding-left: 21px;
+  background: var(--mainWhite);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.fancy-border:hover {
+  transform: scale(1.03);
+  transition: all 1s;
+}
+
+.card {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  max-height: 400px;
+  min-height: 400px;
+  overflow: scroll;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: all 1s;
+}
+
+.btn {
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.45);
+  border-left: 3px solid var(--mainWhite) !important;
+}
+
+.btn:hover {
+  background: var(--mainWhite);
+  color: var(--mainBlue);
+  transform: scale(1.05);
+  transition: all 1s;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.45);
+}
+
+
+
