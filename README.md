@@ -1,5 +1,8 @@
+[![Build Status](https://travis-ci.org/Charpell/phone-number-generator.svg?branch=master)](https://travis-ci.org/Charpell/phone-number-generator)
+[![Coverage Status](https://coveralls.io/repos/github/Charpell/phone-number-generator/badge.svg?branch=master)](https://coveralls.io/github/Charpell/phone-number-generator?branch=master)
+
 ## Phone Number Generator
-A simple app that generates random phone numbers for a telecommunications company.
+A simple app that generates random phone numbers for a telecommunications company. The App is hosted here(https://phone101.herokuapp.com/)
 
 
 ### Features

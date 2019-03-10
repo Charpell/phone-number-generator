@@ -15,7 +15,8 @@
     "dev:server": "cd client && yarn build && cd .. && yarn start",
     "start": "node server.js",
     "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "jest": {
     "verbose": true,
@@ -31,6 +32,7 @@
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
+    "coveralls": "^3.0.3",
     "jest": "^24.3.1",
     "mock-fs": "^4.8.0",
     "supertest": "^3.4.2"
